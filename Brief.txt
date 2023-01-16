@@ -1,0 +1,37 @@
+﻿https://github.com/AshVance
+https://github.com/AshVance/ShipGameProject
+
+// Ship game project:
+This game is intended to be a sort of spaceship management game, where the player manages their ship as it encounters
+various things in space (like hostile ships, asteroid fields, space stations, etc). It's the players job to manage things
+like oxygen levels, replenish food and water and make sure their ship is in working order. 
+
+Many other games such as Fallout and Elite Dangerous have inspired the creation of this project, and elements of their
+games can be found as inspiration for features in this one.
+
+This is a long-term project and as such this list is likely to grow large. This is for my (the developer) purposes only,
+although it may also function as a basic history of each step of development.
+
+Structure:
+Basic main menu (more details on each section below)
+	- Quit function
+	- Save/loading
+		- Make use of simple text files in a sub-folder for now.
+		- Possibly include multiple save files at some point
+	- Ability to load 'game menu'
+		- Includes all basic features, exploring/checking of ship status
+	- Statistics menu
+
+Gameplay:
+The game will follow a simple gameplay loop similar to moving around the map in the original top-down Fallout games,
+or in other old RPGs like Dragon Quest, where the player randomly encounters events. This makes games more interesting and
+risky, as the player won't know whether or not the next event will be beneficial or detrimental.
+
+Saving & loading:
+For now, I plan to use a simple system where the player's data is dumped into a text document and then read by the program
+when loading. This will be implemented after the core gameplay loop has largely been done.
+
+Statistics:
+My hope is for the game to be be able to record statistics while the player plays, which will be stored in a nice human-
+readable text file as well as readable in the game itself. Will also be implemented after the core gameplay loop has been
+done.
